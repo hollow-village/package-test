@@ -15,7 +15,6 @@ jobs:
           registry: ghcr.io
           username: hollow-village
           password: ${{ secrets.PAT_TOKEN }}
-
       - uses: docker/build-push-action@v2
         with:
           push: true
