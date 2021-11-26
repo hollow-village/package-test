@@ -19,4 +19,4 @@ jobs:
       - uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ghcr.io/hollow-village/package-test:latest
+          tags: ghcr.io/hollow-village/package-test_PAT:latest
